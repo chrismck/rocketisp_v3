@@ -23,15 +23,16 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  Microchip ATMEGA328PB using external 12MHz Crystal,
  ~6Kb Program Memory (19%), 200b Data Memory (10%)
  
-  PIN Usage details:	PIN		PURPOSE
-        		PD7		1st RED LED (SPI Activity)					
-			PC2		FORCE SLOW SCK 8khz	= ON (DO NOT USE i.e.:set to OFF, when programming PDI targets)				   			
-			PC3		GREEN LED (Powered)	I should change this to indicate USB connection status					
-                    	PC4		2nd RED (TPI Activity)
-        		PC5		BLUE LED (PDI Activity)
-        		PB0		RESCUE CLOCK (5V Only?)
-        		PB1		DEBUG OPTION = ON, unused at this time
-        		PB2		TARGET RESET					
+  PIN Usage details:	| PIN | PURPOSE | NOTES |
+        		|-----|---------|-------|
+			| PD7 |	SPI Activity | 1st Red LED |					
+			| PC2 |	SLOW SCK (8khz) | DO NOT USE i.e.:set to OFF, when programming PDI targets |		   			
+			| PC3 |	Powered | Green LED - need to change to indicate USB connection status |					
+                    	| PC4 | TPI Activity | 2nd Red LED |
+        		| PC5 | PDI Activity | Blue LED |
+        		| PB0 |	RESCUE CLOCK | 5V Only? |
+        		| PB1 |	DEBUG OPTION | TDB - Use for custom firmware |
+        		| PB2 |	TARGET RESET | Control Target Reset Line |					
 
         FORCE SLOW CLOCK and DEBUG OPTION both use Internal Pull Ups and are considered ON when grounded.
  
@@ -42,14 +43,14 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  Board can be programmed using any SPI ISP programmer such as Atmel JTAGICE3, Atmel ICE or even another ROCKETasp or USBasp.
  I would recommend programming at 5V, with the dip switches, and power selection in the following positions:
  
- DIP switch:        DEBUG OPT     OFF
-                    VTARGET       ON      (Remember the ROCKETasp needs power via USB if using a JTAGICE3 or ICE as they don't power targets)
-                    SLOW CLOCK    OFF
-                    FIRMWARE      ON      (allow firmware upgrade)
+ DIP switch:        | DEBUG OPT | OFF |
+                    | VTARGET | ON |     (Remember the ROCKETasp needs power via USB if using a JTAGICE3 or ICE as they don't power targets)
+                    | SLOW CLOCK | OFF |
+                    | FIRMWARE | ON |     (allow firmware upgrade)
                     
- Power Select       5V
+ Power Select:      5V
  
- Use the SPI/TPI connector (one closest to the microcontroller's crystal) - Need to update better Silk 
+ Use the SPI/TPI connector (one closest to the microcontroller's crystal) - >Need to update better Silk< 
  
  Burn as you would any target ATMEGA328PB board, ensuring the correct fuses above.
  
