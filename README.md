@@ -44,11 +44,13 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  Board can be programmed using any SPI ISP programmer such as Atmel JTAGICE3, Atmel ICE or even another ROCKETasp or USBasp.
  I would recommend programming at 5V, with the dip switches, and power selection in the following positions:
  
- DIP switch:        
- | DEBUG OPT | OFF |
- | VTARGET | ON |     (Remember the ROCKETasp needs power via USB if using a JTAGICE3 or ICE as they don't power targets)
- | SLOW CLOCK | OFF |
- | FIRMWARE | ON |     (allow firmware upgrade)
+ DIP switch settings:        
+ | DIPSWITCH| POS | NOTES |
+ | --------- | --- | ----- |
+ | DEBUG OPT | OFF | TBD |
+ | VTARGET | ON | ROCKETasp needs external power if using a JTAGICE3 or ICE as they don't power targets
+ | SLOW CLOCK | OFF | only on SPI targets |
+ | FIRMWARE | ON | allow firmware upgrade
                     
  Power Select:      5V
  
