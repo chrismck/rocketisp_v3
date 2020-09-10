@@ -86,4 +86,6 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  
  Burn as you would any target ATMEGA328PB board, ensuring the correct fuses above.
  
+ ## Board Layout
+  ![Version3_Layout](/Additional_Files/board_overlay_v3.png)
  
