@@ -31,7 +31,7 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  by Thomas Fischl from https://www.fischl.de/usbasp/ & PDI (Program and Debug Interface) 
  additions by "szu" from http://szulat.blogspot.com/ the majority of this work is theirs.
  
-### Version 3.0
+### Firmware Version 1.0V3
  
  3rd revision hardware can be 3V3 (for PDI) and 5V powered by using switch,
  the microcontroller is powered using 3V3 when selected 
