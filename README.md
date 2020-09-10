@@ -14,7 +14,7 @@ files for version 2.1.
 
 # rocketisp_v2
 
-![ROCKETasp_V2](/Images/ROCKETasp_Front_v2.png)
+![ROCKETasp_V2](/Images/ROCKETasp_Front_v2_1.png)
 
 The case can be purchased through Digikey # HM1472-ND (Red) of via other distributors using Model # 1551USB3 (Hammond)
 for around $5 CAD. The case needs to be modified in the rear to allow the pin header to protrude out, or you can print the modified case
