@@ -12,6 +12,14 @@ There have been two other versions of this programmer:
 Versions 2.1 and 3.0 are documented here.  I've included the Gerbers, Schematics in PDF form and 3D printer case
 files for version 2.1.
 
+# rocketisp_v2
+The case can be purchased through Digikey # HM1472-ND (Red) of via other distributors using Model # 1551USB3 (Hammond)
+for around $5 CAD. The case needs to be modified in the rear to allow the pin header to protrude out, or you can print the modified case
+using the supplied STL files for the Top and Bottom.  Use fine settings.
+
+I've stopped using the v2.1 programmer as I found it a pain to have to include a custom cable that includes 2x 220Ohm resistors for
+use with my xC3mini board using PDI.  Instead I now use the v3 programmer, which sadly I haven't designed a case for yet.
+
 # rocketisp_v3
 Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
 
