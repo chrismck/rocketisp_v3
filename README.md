@@ -31,7 +31,7 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
  by Thomas Fischl from https://www.fischl.de/usbasp/ & PDI (Program and Debug Interface) 
  additions by "szu" from http://szulat.blogspot.com/ the majority of this work is theirs.
  
-### Version 1.0V3
+### Version 3.0
  
  3rd revision hardware can be 3V3 (for PDI) and 5V powered by using switch,
  the microcontroller is powered using 3V3 when selected 
@@ -58,11 +58,13 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
   | PB2 | TARGET RESET | Control Target Reset Line |					
 
  	FORCE SLOW CLOCK and DEBUG OPTION both use Internal Pull Ups and are considered ON when grounded.
- 
+
+ ### Programming Firmware
+
  When reflashing the firmware, or flashing custom firmware:
  
  	FUSES: TARGET = atmega328pb, HFUSE=0xD1, LFUSE=0xFF, EFUSE=0xF7
- 
+  
  Board can be programmed using any SPI ISP programmer such as Atmel JTAGICE3, Atmel ICE or even another ROCKETasp or USBasp.
  I would recommend programming at 5V, with the dip switches, and power selection in the following positions:
  
