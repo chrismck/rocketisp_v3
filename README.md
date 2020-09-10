@@ -1,3 +1,17 @@
+# All Versions
+There have been two other versions of this programmer:
+
+| VER | Description |
+|-----|-------------|
+| 1.0 | First iteration  of the programmer which was through hole - not documented here |
+| 1.1 | Second iteration using small (smaller then 2.0) smd components - no case |
+| 2.0 | Third iteration of programmer, was quickly dropped due to IRQ pin trace missing - my bad |
+| 2.1 | Fourth iteration, was designed to fit case available via Digikey or 3D printer - fixed 2.0 trace |
+| 3.0 | revision to move away from USB thumb drive connector to B style, added switch for power, PDI resistors, etc |
+
+Versions 2.1 and 3.0 are documented here.  I've included the Gerbers, Schematics in PDF form and 3D printer case
+files for version 2.1.
+
 # rocketisp_v3
 Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
 
