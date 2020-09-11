@@ -14,6 +14,14 @@ files for version 2.1.
 
 # rocketisp_v2
 
+Small USB TPI/SPI/PDI programmer based on USBasp w/3D printed case
+
+This project was, like the multitude of programmers out there, based on the USBasp programmer.  The original project by Thomas Fischl can be found here: https://www.fischl.de/usbasp/  His project originally supported only a SPI interface, but in later revisions of the firmware supported TPI.
+
+This programmer was oringally supposed to support SPI, TPI, and PDI with no additional components but the design was made without 2 small resistors for the PDI shared send/receive line.  These were simply added with a custom cable for PDI use with my xC3mini xMega development board.
+
+A 3D printed case was created, but the design (as large as it is, with lots of wasted real estate) was created to fit a specific case.
+
 ![ROCKETasp_V2](/Images/ROCKETasp_Front_v2_1.png)
 
 The case can be purchased through Digikey # HM1472-ND (Red) of via other distributors using Model # 1551USB3 (Hammond)
@@ -24,7 +32,7 @@ I've stopped using the v2.1 programmer as I found it a pain to have to include a
 use with my xC3mini board using PDI.  Instead I now use the v3 programmer, which sadly I haven't designed a case for yet.
 
 # rocketisp_v3
-Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
+Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3 power, and the missing 220R PDI resistors.  Ya! No more custom ribbon wire or adapters. See <Insert Adapter link here>.
 
 ![ROCKETasp_V3](/Images/ROCKETasp_Front_v3.png)
 
@@ -82,7 +90,7 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3
                     
  Power Select:      5V
  
- Use the SPI/TPI connector (one closest to the microcontroller's crystal) - Need to update better Silk 
+ Use the SPI/TPI connector (one closest to the microcontroller's crystal) - Need to update better Silk so
  
  Burn as you would any target ATMEGA328PB board, ensuring the correct fuses above.
  
