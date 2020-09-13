@@ -24,7 +24,7 @@ A 3D printed case was created, but the design (as large as it is, with lots of w
 
 ![ROCKETasp_V2](/Images/ROCKETasp_Front_v2_1.png)
 
-The case can be purchased through Digikey # HM1472-ND (Red) of via other distributors using Model # 1551USB3 (Hammond)
+The case can be purchased through Digikey # HM1472-ND (Red) or via other distributors using Model # 1551USB3 (Hammond)
 for around $5 CAD. The case needs to be modified in the rear to allow the pin header to protrude out, or you can print the modified case
 using the supplied STL files for the Top and Bottom.  Use fine settings.
 
@@ -90,7 +90,9 @@ Version 3 of the SPI/TPI/PDI programmer, this with switchable 5V/3V3 power, and 
                     
  Power Select:      5V
  
- Use the SPI/TPI connector (one closest to the microcontroller's crystal) - Need to update better Silk so
+ Use the SPI/TPI connector (one closest to the microcontroller's crystal) - Need to update better Silk so it's easier to identify the
+ correct connector to use, power switch which direction is 3V3, which is 5V, and the DIP switches.  I forgot to add the information and
+ was simply and oversight.  I've made too many of these programmer boards, lol.  I'm hesitant to respin the PCB AGAIN with the updated silk.
  
  Burn as you would any target ATMEGA328PB board, ensuring the correct fuses above.
  
