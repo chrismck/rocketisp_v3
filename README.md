@@ -12,6 +12,10 @@ There have been two other versions of this programmer:
 Versions 2.1 and 3.0 are documented here.  I've included the Gerbers, Schematics in PDF form and 3D printer case
 files for version 2.1.
 
+## Older Revisions (1 and 2.1)
+![OldRevisions](/Images/oldversions.png)
+To be honest the small USB programmer is not revision 2.1, as I simply bridged the 2 pins that were missing the connection.
+
 # rocketisp_v2
 
 Small USB TPI/SPI/PDI programmer based on USBasp w/3D printed case
